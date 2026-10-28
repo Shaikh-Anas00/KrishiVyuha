@@ -1,0 +1,8 @@
+Crop,Season,Sum_Insured_Per_Hectare,Premium_Rate
+Soybean,Kharif,45000,0.02
+Cotton,Kharif,60000,0.02
+Paddy (Rice),Kharif,70000,0.02
+Wheat,Rabi,55000,0.015
+Mustard,Rabi,45000,0.015
+Gram,Rabi,40000,0.015
+Sugarcane,Annual (Commercial),135000,0.05

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+.venv/
+venv/
+env/
+
+# Data files (large)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.pkl
+*.zip
+
+# Model artifacts (large binaries)
+models/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Node / Next.js
+agrivest-frontend/node_modules/
+agrivest-frontend/.next/
+agrivest-frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Temp / scratch
+tmp_syllabus.txt
+sudoku.cpp
+sudoku.exe

@@ -1,0 +1,32 @@
+{
+    "mae": 57.7286,
+    "rmse": 409.0609,
+    "r2": 0.790333,
+    "confidence_margin": 409.0606,
+    "residual_mean": 0.4764,
+    "residual_std": 409.0606,
+    "downside_bound_interpretation": "1 residual std dev corresponds to ~84% 1-sided normal downside coverage",
+    "n_test_samples": 69358,
+    "n_features": 816,
+    "model_type": "Multiple Linear Regression (OLS)",
+    "field_crops_mae_t_ha": 28.7403,
+    "field_crops_rmse_t_ha": 51.6028,
+    "field_crops_r2": -17.0748,
+    "temporal_validation": {
+        "description": "Train on Year <= 2018 (326,985 samples), Test on Year >= 2019 (19,803 samples)",
+        "train_years": "1997-2018",
+        "test_years": "2019-2024",
+        "r2": 0.8011,
+        "mae": 56.8876,
+        "rmse": 380.7299
+    },
+    "kfold_cross_validation": {
+        "k": 5,
+        "mean_r2": 0.7886,
+        "std_r2": 0.0071,
+        "mean_mae": 58.4777,
+        "std_mae": 1.8316,
+        "mean_rmse": 415.0449,
+        "std_rmse": 21.2791
+    }
+}
